@@ -4,7 +4,7 @@ A modern and responsive personal portfolio website built using **HTML, CSS, and 
 
 ---
 
-## 🚀 Live Deom : https://momenesam11.github.io/Daniels/
+## 🚀 Live Demo : https://momenesam11.github.io/Daniels/
 
 ---
 
