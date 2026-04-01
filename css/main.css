@@ -1,0 +1,206 @@
+.navbar {
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #FFF;
+  --bs-navbar-active-color: #FFF;
+  --bs-navbar-hover-color: rgb(241, 235, 235);
+  --bs-navbar-color: rgb(241, 235, 235);
+}
+
+body{
+    background:#F5F5F5;
+}
+
+ul{
+    list-style: none;
+}
+
+
+header.hero{
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.744)), url('../image/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
+
+header div.hero h1{
+    font-size: 4.5rem !important;
+}
+
+header nav.navbar{
+    padding: 20px 0 !important;
+    margin: auto;
+    width: 95%;
+}
+header nav.navbar.scrolled {
+    padding: 10px 0 !important;
+    width: 100%;
+}
+@media (min-width: 992px) {
+    header nav.navbar{
+        padding: 50px 88px !important;
+        width: 90%;
+    }
+    header nav.navbar.scrolled {
+        padding: 15px 88px !important;
+        width: 100%;
+    }
+}
+
+div.progress{
+    height: 25px;
+    border-radius: 5;
+}
+div.progress:nth-of-type(1) div{
+    width: 85%;
+}
+div.progress:nth-of-type(4) div{
+    width: 90%;
+}
+
+#about div.right p.about{
+    font-size: 1.0rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 10px !important;
+
+}
+
+
+
+
+section.services header h2,
+section.portfolio header h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+section.services div.icon{
+    width: 25px;
+    height: 25px;
+    padding: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+section.services div.card{
+    border-radius: 15px !important;
+}
+
+section.services div.card:hover div.icon{
+    width: 25px;
+    height: 25px;
+    padding: 40px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #200202 !important;
+    color: white;
+}
+
+
+
+
+
+section.numbers{
+    background: linear-gradient(rgba(70, 110, 252, 0.646), rgba(70, 110, 252, 0.646)),url('../image/counters-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    padding-block: 100px;
+    
+}
+
+
+section.numbers div.icon{
+    width: 80px;
+    height: 80px;
+    border: 8px solid #c4bfbf;
+    padding: 20px;
+}
+
+
+section.blog header,
+section.portfolio header,
+section.services header{
+    width: fit-content !important;
+}
+
+
+
+section.portfolio div.icon{
+    width: 50px;
+    height: 50px;
+}
+section.portfolio img{
+    border-radius: 0 !important;
+    transition: all 0.6s ease-in-out;
+}
+
+section.portfolio div.card:hover img{
+    transform: scale(1.2);
+}
+
+section.portfolio ol {
+    font-size: 14px !important;
+}
+
+
+
+
+
+
+
+
+
+
+section.slider
+{
+    background: linear-gradient(rgba(70, 110, 252, 0.646), rgba(70, 110, 252, 0.646)),url('../image/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    padding-block: 100px;
+    
+}
+
+
+section.slider div.img_contaniner {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 3rem !important;
+}
+
+
+
+
+
+
+
+section.blog div.card div.contain_img span{
+    transform: translate(-50%, 50%) !important;
+    bottom: 0 !important;
+    left: 50% !important;
+}
+
+
+section.blog div.contain_img img    {
+    border-radius: 0 !important;
+}
+
+
+section.contact{
+background: linear-gradient(rgba(70, 110, 252, 0.646), rgba(70, 110, 252, 0.646)),url('../image/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
